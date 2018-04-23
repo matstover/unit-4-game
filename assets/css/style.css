@@ -1,0 +1,10 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.jumbotron{
+   background-color: cyan
+}
+img {
+    width: 15%;
+    height: auto;
+    margin-left: 15px
