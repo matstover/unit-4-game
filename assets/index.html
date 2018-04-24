@@ -28,32 +28,50 @@
         <br>
         <p>Each time when the game starts, the game will change the values of each crystal.</p>
         <hr class="my-4">
-            <div class="mx-auto" style="width: 200px;">
+        <div id="reset" class="mx-auto" style="width: 200px;">
             <p>Press Start</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Start</a>
         </div>
     </div>
     <container>
-        <div class= row>
+        <div class=r ow>
+            <div class="col-sm-2.4">
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-success">Goal</div>
+                    <div class="card-body text-success">
+                        <h5 class="card-title">
+                            <span></span>
+                        </h5>
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer bg-transparent border-success">Score</div>
+                </div>
                 <div class="col-sm-2.4">
-    <div class="card border-success mb-3" style="max-width: 18rem;">
-            <div class="card-header bg-transparent border-success">Goal</div>
-            <div class="card-body text-success">
-              <h5 class="card-title"><span></span></h5>
-              <p class="card-text"></p>
-            </div>
-            <div class="card-footer bg-transparent border-success">Score</div>
-          </div>
-          <div class="col-sm-2.4">
-          <div><span id="blueGemNumber"><img src="./images/blue_gem.jpg" alt="blue gem"></span></div>
-          <div class="col-sm-2.4">
-          <div><span id="greenGemNumber"><img src="./images/green_gem.jpg" alt="green gem"</span></div>
-          <div class="col-sm-2.4">
-          <div><span id="pinkGemNumber"><img src="./images/pink_gem.jpg" alt="pink gem"</span></div>
-          <div class="col-sm-2.4">
-          <div><span id="yellowGemNumber"><img src="./images/yellow_gem.jpg" alt="yellow gem"</span></div>
-        </div></div></div></div>
-        </container>
+                    <div>
+                        <span id="blueGemNumber">
+                            <img src="./images/blue_gem.jpg" alt="blue gem">
+                        </span>
+                    </div>
+                    <div class="col-sm-2.4">
+                        <div>
+                            <span id="greenGemNumber">
+                                <img src="./images/green_gem.jpg" alt="green gem" </span>
+                        </div>
+                        <div class="col-sm-2.4">
+                            <div>
+                                <span id="pinkGemNumber">
+                                    <img src="./images/pink_gem.jpg" alt="pink gem" </span>
+                            </div>
+                            <div class="col-sm-2.4">
+                                <div>
+                                    <span id="yellowGemNumber">
+                                        <img src="./images/yellow_gem.jpg" alt="yellow gem" </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </container>
     <script src="./javascript/game.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
